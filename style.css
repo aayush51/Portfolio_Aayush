@@ -2,61 +2,85 @@
     margin: 0;
     padding: 0;
 }
+
 .portfolio-section {
-    height: 400px ;
+    height: 400px;
     width: 100%;
     border: 2px solid black;
     text-align: center;
     background-color: white;
 }
+
 .navigation-bar {
     position: fixed;
     width: 100%;
     background-color: transparent;
     backdrop-filter: blur(10px);
 }
+
 .portfolio-section h1 {
     margin-top: 50px;
 }
+
 html {
     scroll-behavior: smooth;
 }
 
 .brand {
     font-size: 35px;
-    font-family: ;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
 }
+
 .navmenu {
     font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 5px;
 }
-.tracking-in-expand {
-	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+.navmenu:hover {
+    color: #ff0000;
+    transition: 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
- @-webkit-keyframes tracking-in-expand {
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
     0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
+        letter-spacing: -0.5em;
+        opacity: 0;
     }
+
     40% {
-      opacity: 0.6;
+        opacity: 0.6;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  @keyframes tracking-in-expand {
+}
+
+@keyframes tracking-in-expand {
     0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
+        letter-spacing: -0.5em;
+        opacity: 0;
     }
+
     40% {
-      opacity: 0.6;
+        opacity: 0.6;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
+}
