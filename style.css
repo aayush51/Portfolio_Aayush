@@ -157,9 +157,7 @@ html {
 
 hr {
     width: 20%;
-    height: 2px;
     border-top: dotted #4CCD99 5px ;
-    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
