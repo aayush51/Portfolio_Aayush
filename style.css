@@ -108,13 +108,18 @@ html {
     height: 550px;
     width: 100%;
     background-image: url("profile-pic.png");
-    background-position: 80% 40%;
+    background-position: 90% 40%;
     background-repeat: no-repeat;
     background-size: 350px;
     border: none;
     margin-top: 50px;
     margin-bottom: 80px ;
  }
+ #s1 {
+    position: absolute;
+    top: 0px;
+ }
+
 .info {
     font-size: 50px;
     font-weight: bolder;
@@ -150,6 +155,66 @@ html {
 	border: 2px solid #4CCD99;
 }
 
-.aboutmain div {
+hr {
+    width: 20%;
+    height: 2px;
+    background-color: ;
+    border-top: dotted #4CCD99 5px ;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutmain {
     display: flex;
+    padding-top: 100px;
+}
+.aboutmain div {
+    width: 50%;
+    padding-right: 70px;
+}
+
+#about {
+    height: 550px;
+    width: 100%;
+    border: none;
+    margin-top: 50px;   
+    margin-bottom: 80px ;
+}
+.about-info {
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 80px;
+    font-family: sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+
+}
+.about-info h1 {
+    text-align: center;
+    color: #007F73;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.img-about {
+    height: 600px;
+    width: 50%;
+    margin: 60px;
+    animation-name: zoom;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes zoom {
+    100%
+    {
+        transform: scale(1.2);
+    }
+}
+
+.img-about:hover {
+    transform: scale(1.2);
+    transition-duration: 3s;
 }
