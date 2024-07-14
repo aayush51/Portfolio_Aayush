@@ -339,6 +339,7 @@ hr {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin: 50px 0px ;
     width: 200px;
 }
 #contact a img {
@@ -379,3 +380,14 @@ hr {
     }
   }
   
+  .contactlinks {
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 100px;
+  }
+
+  footer {
+    background-color: #93b5df;
+    text-align: center;
+    padding: 40px;
+  }
