@@ -52,6 +52,8 @@ html {
 }
 
 .main-container {
+    background-color:#f8f7ff;
+
     position: relative;
     top: 50px;
 }
@@ -312,9 +314,11 @@ hr {
 }
 
 #contact {
-    padding: 30px 100px;
+    height: 650px;
+    padding: 40px 100px 100px;
     text-align: center;
-    margin-bottom: 120px;
+    
+    /* margin-bottom: 120px; */
 }
 #contact h1 {
     color: #607692;
@@ -389,5 +393,9 @@ hr {
   footer {
     background-color: #93b5df;
     text-align: center;
-    padding: 40px;
+    height: 180px;
+    padding: 60px;
+  }
+  footer p {
+    margin-top: 25px;
   }
