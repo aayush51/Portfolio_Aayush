@@ -463,7 +463,6 @@ footer p {
     }
 
     .designation.info {
-        color: #93b5df;
         text-transform: uppercase;
         font-size: 60px;
     }
@@ -471,39 +470,25 @@ footer p {
     .rsmbtn {
         height: 60px;
         width: 180px;
-        color: #93b5df;
-        border: none;
-        font-weight: bolder;
-        font-family: "Nunito", sans-serif;
-        font-optical-sizing: auto;
         font-style: normal;
         margin-left: 10px;
         margin-top: 50px;
         border-radius: 10px;
-        transition-duration: 1s;
-    }
-
-    .rsmbtn:hover {
-        transform: scale(1.1);
-        box-shadow: 0px 0px 20px #607692;
-        color: #93b5df;
-        background-color: white;
-        border: 2px solid #607692;
     }
 
     hr {
         width: 20%;
         border-top: dotted #607692 5px;
-        margin: 80px auto;
+        margin: 20px auto;
     }
 
     .aboutmain {
-        display: flex;
+        display: block;
         padding: 100px 0px;
     }
 
     .aboutmain div {
-        width: 50%;
+        width: 100%;
         padding-right: 70px;
     }
 
@@ -635,9 +620,7 @@ footer p {
     }
 
     .projectmain {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
+        display: block;
     }
 
     #contact {
@@ -691,7 +674,7 @@ footer p {
     .contactlinks {
         display: inline-flex;
         justify-content: space-around;
-        gap: 100px;
+        gap: 50px;
     }
 
     footer {
