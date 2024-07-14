@@ -522,7 +522,7 @@ footer p {
     }
 
     .img-about {
-        width: 30%;
+        width: 200px;
         margin: 0% 1%;
         animation-name: zoom;
         animation-duration: 4s;
