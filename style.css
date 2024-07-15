@@ -415,9 +415,12 @@ footer p {
 }
 
 @media only screen and (max-width: 720px) {
+    html{
+        width: 100vw;
+    }
     .portfolio-section {
         height: 100vh;
-        width: 100vw;
+        width: 100%;
     }
 
     .portfolio-section h1 {
@@ -432,7 +435,7 @@ footer p {
         width: 100vw;
     }
     .navmenu {
-        font-size: 28px;
+        font-size: 4vw;
     }
     .main-container {
         position: relative;
@@ -447,16 +450,17 @@ footer p {
     }
 
     #home-info {  
+        display: block;
         width: 95vw;
         font-size: 4vw;
-        margin-top: 46vw;
-        margin-left: 0vw;
+        margin-top: 260px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #home {
         display: block;
         height: 40vh;
-        width: 100vw;
         background-position: 50% 5%;
         background-size: 250px;
         margin: 0vw;
@@ -483,7 +487,7 @@ footer p {
     #home .resumebutton {
         display: block;
         text-align: center;
-        width: 100vw;
+        width: 100%;
     }
     .rsmbtn {
         border-radius: 10px;
@@ -493,7 +497,7 @@ footer p {
     }
 
     hr {
-        width: 20%;
+        width: 20vw;
         border-top: dotted #607692 5px;
         margin: 0vw auto;
     }
@@ -509,26 +513,23 @@ footer p {
     }
 
     #about {
-        height: 40vh;
-        margin-top: 50px;
-        margin-bottom: 180px;
+        display: block;
+        margin: 6vw auto;
         text-align: center;
-        width: 100vw;
+        width: 90%;
+        height: 100vh;
         padding: 10vw 0vw 0vw;
     }
 
     .about-info {
         text-align: justify;
-        line-height: 30px;
-        text-indent: 80px;
-        font-family: "Nunito", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        font-size: 20px;
+        line-height: 6vw;
+        text-indent: 0vw;
+        font-size: 4vw;
         word-spacing: 1vw;
         letter-spacing: 0.5vw;
-        margin-top: 0px;
-        width: 100vw;
+        margin: 0vw auto;
+        width: 90vw;
     }
 
     .about-info h1 {
@@ -544,7 +545,7 @@ footer p {
         height: 50vw;
         margin: 0vw 0vw;
         animation-name: zoom;
-        animation-duration: 4s;
+        animation-duration: 0s;
         animation-iteration-count: 3;
         padding: 0vw;
     }
@@ -559,20 +560,21 @@ footer p {
     }
 
     .img-about:hover {
-        transform: scale(1.3);
-        transition-duration: 3s;
+        transform: scale(1);
+        transition-duration: 0s;
     }
 
     #skills {
-        padding: 30px 100px;
+        padding: 12vw 14vw;
         text-align: center;
-        margin-bottom: 120px;
+        width: 100%;
+        margin: 0vw 0vw;
     }
 
     .skillset1 h2,
     .skillset2 h2,
     .skillset3 h2 {
-        margin: 30px 0px;
+        margin: 2vw 0px;
     }
 
     #skills h1 {
@@ -583,37 +585,31 @@ footer p {
 
     #skills img {
         padding: 5px;
-        width: 20px;
+        width: 7vw;
     }
 
     #skills ul {
         color: #7f6b86;
         display: inline-flex;
         justify-content: space-between;
-        gap: 100px;
+        gap: 1vw 4vw;
         flex-wrap: wrap;
-        font-family: "Nunito", sans-serif;
-        font-optical-sizing: auto;
-        list-style: none;
     }
 
     #project {
-        padding: 30px 100px;
+        padding: 12vw 4vw;
         text-align: center;
-        margin-bottom: 120px;
+        margin-bottom: 35vw;
     }
 
-    #project h1 {
-        font-size: 50px;
-    }
 
     #project h2 {
         margin: 30px 0px;
-        font-size: 30px;
+        font-size: 4vw;
     }
 
     #project img {
-        width: 200px;
+        width: 80vw;
     }
 
     .projectmain {
@@ -621,11 +617,8 @@ footer p {
     }
 
     #contact {
-        height: 100vh;
-        padding: 40px 100px 100px;
+        padding: 28vw 14vw;
         text-align: center;
-
-        /* margin-bottom: 120px; */
     }
 
     #contact h1 {
@@ -633,12 +626,12 @@ footer p {
     }
 
     #contact button a img {
-        width: 25px;
+        width: 6vw;
     }
 
     #contact button a {
         pointer-events: none;
-        font-size: 20px;
+        font-size: 4vw;
     }
 
     #contact button {
@@ -654,7 +647,7 @@ footer p {
     }
 
     #contact a img {
-        width: 100px;
+        width: 15vw;
     }
 
     .shadow-drop-2-center:hover {
@@ -666,18 +659,18 @@ footer p {
     .contactlinks {
         display: inline-flex;
         justify-content: space-around;
-        gap: 50px;
+        gap: 10vw;
     }
 
     footer {
         background-color: #93b5df;
         text-align: center;
-        height: 200px;
-        padding: 60px;
+        height: 35vw;
+        padding: 12vw;
     }
 
     footer p {
-        margin-top: 45px;
+        margin-top: 8vw;
     }
 
 }
