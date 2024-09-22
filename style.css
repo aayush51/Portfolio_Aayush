@@ -436,7 +436,7 @@ footer p {
     margin-top: 0px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (min-width: 0px) {
     .portfolio-section {
         height: 100vh;
         width: 100vw;
@@ -500,6 +500,270 @@ footer p {
         display: block;
         font-size: 7vw;
         margin: 5vw 0vw 0vw;
+        padding: 0vw 0vw;
+    }
+    #home .resumebutton {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .rsmbtn {
+        border-radius: 10px;
+        height: 10vw;
+        margin: 1vw auto;
+        width: 26vw;
+    }
+
+    hr {
+        width: 10vw;
+        border-top: dotted #607692 1.3vw;
+        margin: 0vw auto;
+    }
+
+    .aboutmain {
+        display: block;
+        padding: 0px 0px;
+    }
+
+    .aboutmain div {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    #about {
+        display: block;
+        margin: 6vw auto;
+        text-align: center;
+        width: 90%;
+        height: 100vh;
+        padding: 10vw 0vw 0vw;
+    }
+
+    .about-info {
+        text-align: justify;
+        line-height: 6vw;
+        text-indent: 0vw;
+        font-size: 4vw;
+        word-spacing: 1vw;
+        letter-spacing: 0.5vw;
+        margin: 0vw auto;
+        width: 90vw;
+    }
+
+    .about-info h1 {
+        text-align: center;
+        font-size: 10vw;
+        padding-bottom: 2vw;
+    }
+
+    .img-about {
+        position: inherit;
+        bottom: 10px;
+        width: 50vw;
+        height: 50vw;
+        margin: 0vw 0vw;
+        animation-name: zoom;
+        animation-duration: 0s;
+        animation-iteration-count: 3;
+        padding: 0vw;
+    }
+    img.img {
+        width: 70%;
+    }
+
+    @keyframes zoom {
+        100% {
+            transform: scale(1.2);
+        }
+    }
+
+    .img-about:hover {
+        transform: scale(1);
+        transition-duration: 0s;
+    }
+
+    #skills {
+        padding: 25vw 14vw 0vw;
+        text-align: center;
+        width: 100%;
+        margin: 6vw 0vw 0vw;
+    }
+
+    .skillset1 h2,
+    .skillset2 h2,
+    .skillset3 h2 {
+        margin: 3vw 0px;
+        font-size: 7vw;
+    }
+
+    #skills h1 {
+        text-align: center;
+        font-size: 10vw;
+        padding-bottom: 3vw;
+    }
+
+    #skills img {
+        padding: 0.2vw 0.6vw;
+        width: 7vw;
+    }
+
+    #skills ul {
+        color: #7f6b86;
+        display: inline-flex;
+        justify-content: space-between;
+        gap: 3vw 10vw;
+        flex-wrap: wrap;
+        font-size: 4.5vw;
+    }
+
+    #project {
+        padding: 20vw 4vw 0vw;
+        text-align: center;
+        margin-bottom: 0vw;
+    }
+
+    #project h1 {
+        font-size: 10vw;
+        padding-bottom: 3vw;
+    }
+
+    #project h2 {
+        margin: 4vw 0vw;
+        font-size: 4.5vw;
+    }
+
+    #project img {
+        width: 90vw;
+    }
+
+    .projectmain {
+        display: block;
+    }
+
+    #contact {
+        padding: 28vw 14vw 0vw;
+        text-align: center;
+        height: 75vh;
+    }
+
+    #contact h1 {
+        font-size: 12vw;
+    }
+
+    #contact button a img {
+        width: 6vw;
+    }
+
+    #contact button a {
+        pointer-events: none;
+        font-size: 4.5vw;
+    }
+
+    #contact button {
+        border: 1px #607692;
+        border-radius: 30px;
+        height: 14vw;
+        font-weight: bolder;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin: 12vw 0px;
+        width: 50vw;
+    }
+
+    #contact a img {
+        width: 15vw;
+    }
+
+    .shadow-drop-2-center:hover {
+        -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+
+    .contactlinks {
+        display: inline-flex;
+        justify-content: space-around;
+        gap: 10vw;
+    }
+
+    footer {
+        background-color: #93b5df;
+        text-align: center;
+        height: 35vw;
+        padding: 1vw 0vw;
+        font-size: 4.5vw;
+    }
+
+    footer p {
+        margin-top: 8vw;
+    }
+
+}
+@media only screen and (max-width: 426px) and (min-width: 320px) {
+    .portfolio-section {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .portfolio-section h1 {
+        margin-top: 0px;
+    }
+
+    .brand {
+        font-size: 6vw;
+        margin-left: 10px;
+    }
+    .navbar {
+        width: 100vw;
+    }
+    .navmenu {
+        font-size: 4vw;
+    }
+    .main-container {
+        position: relative;
+        top: 0px;
+        height: 100%;
+        width: 100vw;
+    }
+    section#home.portfolio-section {
+        height: 100vh;
+        width: 100vw;
+        margin: 0vw;
+    }
+
+    #home-info {  
+        display: block;
+        width: 100vw;
+        font-size: 4vw;
+        margin-top: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #home {
+        display: block;
+        height: 40vh;
+        background-position: 50% 20%;
+        background-size: 60vw;
+        margin: 0vw;
+        text-align: center;
+    }
+    .info {
+        font-size: 9vw;
+        color: #607692;
+    }
+
+    .myname {
+        font-size: 9.5vw;
+        margin: 0vw;
+        padding: 0vw 0vw;
+    }
+
+    .designation.info {
+        display: block;
+        font-size: 7vw;
+        margin: 3vw 0vw 0vw;
         padding: 0vw 0vw;
     }
     #home .resumebutton {
