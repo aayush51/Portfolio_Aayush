@@ -69,7 +69,7 @@ html {
     /* background-color: #FFF8E7;  Cosmic Latte Color */
     /* background-color: #e1ddcd;  Cappuccino Cosmico color */
     position: relative;
-    top: 75px;
+    top: 0px;
 }
 
 .tracking-in-expand {
@@ -112,7 +112,7 @@ html {
 
 #home-info {
     position: absolute;
-    top: 20px;
+    top: 80px;
     width: 1200px;
     height: 320px;
     font-size: 25px;
@@ -124,7 +124,7 @@ html {
     height: 560px;
     width: 100%;
     background-image: url("profile-pic.png");
-    background-position: 90% 40%;
+    background-position: 90% 60%;
     background-repeat: no-repeat;
     background-size: 320px;
     border: none;
@@ -218,9 +218,9 @@ hr {
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
-    word-spacing: 10px;
+    word-spacing: 7px;
     letter-spacing: 3px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 
 
 }
@@ -234,6 +234,8 @@ hr {
     font-weight: bolder;
     font-size: 50px;
     padding-bottom: 50px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .img-about {
@@ -247,7 +249,7 @@ hr {
 
 @keyframes zoom {
     100% {
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
 }
 
