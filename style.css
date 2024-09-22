@@ -428,12 +428,12 @@ hr {
 footer {
     background-color: #93b5df;
     text-align: center;
-    height: 200px;
-    padding: 60px;
+    height: 50px;
+    padding: 40px 60px 90px;
 }
 
 footer p {
-    margin-top: 45px;
+    margin-top: 0px;
 }
 
 @media only screen and (max-width: 720px) {
