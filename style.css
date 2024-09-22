@@ -436,13 +436,10 @@ footer p {
     margin-top: 0px;
 }
 
-@media only screen and (max-width: 720px) {
-    html{
-        width: 100vw;
-    }
+@media only screen and (max-width: 320px) {
     .portfolio-section {
         height: 100vh;
-        width: 100%;
+        width: 100vw;
     }
 
     .portfolio-section h1 {
@@ -461,7 +458,7 @@ footer p {
     }
     .main-container {
         position: relative;
-        top: 75px;
+        top: 0px;
         height: 100%;
         width: 100vw;
     }
@@ -473,9 +470,9 @@ footer p {
 
     #home-info {  
         display: block;
-        width: 95vw;
+        width: 100vw;
         font-size: 4vw;
-        margin-top: 260px;
+        margin-top: 40vh;
         margin-left: auto;
         margin-right: auto;
     }
@@ -483,27 +480,26 @@ footer p {
     #home {
         display: block;
         height: 40vh;
-        background-position: 50% 5%;
-        background-size: 250px;
+        background-position: 50% 20%;
+        background-size: 70vw;
         margin: 0vw;
         text-align: center;
     }
     .info {
-        font-size: 7.5vw;
+        font-size: 9vw;
         color: #607692;
     }
 
     .myname {
         font-size: 9.5vw;
-        margin: 0px;
+        margin: 0vw;
         padding: 0vw 0vw;
     }
 
     .designation.info {
         display: block;
-        text-transform: uppercase;
         font-size: 7vw;
-        margin: 6vw 0vw 0vw;
+        margin: 5vw 0vw 0vw;
         padding: 0vw 0vw;
     }
     #home .resumebutton {
@@ -514,13 +510,13 @@ footer p {
     .rsmbtn {
         border-radius: 10px;
         height: 10vw;
-        margin: 1vw 0vw;
+        margin: 1vw auto;
         width: 26vw;
     }
 
     hr {
-        width: 20vw;
-        border-top: dotted #607692 5px;
+        width: 10vw;
+        border-top: dotted #607692 1.3vw;
         margin: 0vw auto;
     }
 
@@ -556,8 +552,8 @@ footer p {
 
     .about-info h1 {
         text-align: center;
-        font-size: 50px;
-        padding-bottom: 50px;
+        font-size: 10vw;
+        padding-bottom: 2vw;
     }
 
     .img-about {
@@ -587,26 +583,27 @@ footer p {
     }
 
     #skills {
-        padding: 12vw 14vw;
+        padding: 25vw 14vw 0vw;
         text-align: center;
         width: 100%;
-        margin: 0vw 0vw;
+        margin: 6vw 0vw 0vw;
     }
 
     .skillset1 h2,
     .skillset2 h2,
     .skillset3 h2 {
-        margin: 2vw 0px;
+        margin: 3vw 0px;
+        font-size: 7vw;
     }
 
     #skills h1 {
         text-align: center;
-        font-size: 50px;
-        padding-bottom: 20px;
+        font-size: 10vw;
+        padding-bottom: 3vw;
     }
 
     #skills img {
-        padding: 5px;
+        padding: 0.2vw 0.6vw;
         width: 7vw;
     }
 
@@ -614,24 +611,29 @@ footer p {
         color: #7f6b86;
         display: inline-flex;
         justify-content: space-between;
-        gap: 1vw 4vw;
+        gap: 3vw 10vw;
         flex-wrap: wrap;
+        font-size: 4.5vw;
     }
 
     #project {
-        padding: 12vw 4vw;
+        padding: 20vw 4vw 0vw;
         text-align: center;
-        margin-bottom: 35vw;
+        margin-bottom: 0vw;
     }
 
+    #project h1 {
+        font-size: 10vw;
+        padding-bottom: 3vw;
+    }
 
     #project h2 {
-        margin: 30px 0px;
-        font-size: 4vw;
+        margin: 4vw 0vw;
+        font-size: 4.5vw;
     }
 
     #project img {
-        width: 80vw;
+        width: 90vw;
     }
 
     .projectmain {
@@ -639,12 +641,13 @@ footer p {
     }
 
     #contact {
-        padding: 28vw 14vw;
+        padding: 28vw 14vw 0vw;
         text-align: center;
+        height: 75vh;
     }
 
     #contact h1 {
-        font-size: 50px;
+        font-size: 12vw;
     }
 
     #contact button a img {
@@ -653,19 +656,19 @@ footer p {
 
     #contact button a {
         pointer-events: none;
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     #contact button {
         border: 1px #607692;
         border-radius: 30px;
-        height: 50px;
+        height: 14vw;
         font-weight: bolder;
         font-family: "Nunito", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
-        margin: 50px 0px;
-        width: 200px;
+        margin: 12vw 0px;
+        width: 50vw;
     }
 
     #contact a img {
@@ -688,7 +691,8 @@ footer p {
         background-color: #93b5df;
         text-align: center;
         height: 35vw;
-        padding: 12vw;
+        padding: 1vw 0vw;
+        font-size: 4.5vw;
     }
 
     footer p {
